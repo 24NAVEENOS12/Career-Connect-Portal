@@ -35,7 +35,6 @@ https://careerconnectportal.infinityfreeapp.com
 ---
 
 # 📑 Table of Contents
-
 * Project Overview
 * Key Features
 * Candidate Module

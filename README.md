@@ -58,37 +58,12 @@ Many traditional recruitment systems suffer from:
 ✅ Responsive Web Application
 
 ---
+
 # 🌐 Live Demo & Demo Video
  
 | 🌍 Live Website                                                                            | 🎥 Project Demo                                                                |
 | ---------------------------------------------------                                         | -----------------------------------------                                      |
 | **https://careerconnectportal.infinityfreeapp.com**                                         | **Add your Google Drive video link here**                                        |
-
----
-
-# ✨ Key Features
-
-| 👨‍🎓 Candidate Features | 🏢 Company Features   |
-| ------------------------ | --------------------- |
-| Register Account         | Register Company      |
-| Secure Login             | Secure Login          |
-| Complete Profile         | Company Profile       |
-| Upload Resume            | Upload Company Logo   |
-| Upload Profile Picture   | Upload Cover Image    |
-| Search Opportunities     | Post Opportunities    |
-| Apply for Jobs           | Manage Opportunities  |
-| Track Applications       | View Applicants       |
-| View Status              | Download Resume       |
-| Dashboard Analytics      | Recruitment Analytics |
-
-# 🔒 Security Features
-
-* 🔐 Password Encryption
-* 👤 Session Management
-* 🚪 Secure Logout
-* 📂 File Upload Validation
-* 🛡 SQL Injection Prevention
-* ✅ Login Authentication
 
 ---
 
@@ -209,21 +184,20 @@ Many traditional recruitment systems suffer from:
 
 </table>
 
+--- 
+
+# ✨ Key Features
+
+# 🔒 Security Features
+
+* 🔐 Password Encryption
+* 👤 Session Management
+* 🚪 Secure Logout
+* 📂 File Upload Validation
+* 🛡 SQL Injection Prevention
+* ✅ Login Authentication
+
 ---
-
-# 🌟 Project Highlights
-
-* ✅ Fully Responsive Design
-* ✅ Professional UI
-* ✅ Modern Dashboard
-* ✅ Secure Login System
-* ✅ Resume Management
-* ✅ Company Branding
-* ✅ Opportunity Search & Filter
-* ✅ Applicant Tracking
-* ✅ Recruitment Workflow
-* ✅ MySQL Database Integration
-* ✅ Live Deployment  
 
 # 📊 Dashboard Features
 
@@ -490,8 +464,6 @@ The project uses **MySQL** as the backend database.
 
 Follow these steps to run the project on your local machine.
 
----
-
 ## 1️⃣ Clone the Repository
 
 ```bash
@@ -607,73 +579,15 @@ The project is deployed using
 
 ---
 
-# 📸 Screenshots
-
-> Replace these placeholders with your own screenshots.
-
-| Page                      | Screenshot    |
-| ------------------------- | ------------- |
-| 🏠 Home Page              | *(Add Image)* |
-| 👨‍🎓 Candidate Dashboard | *(Add Image)* |
-| 🏢 Company Dashboard      | *(Add Image)* |
-| 💼 Opportunities          | *(Add Image)* |
-| 👥 Applicants             | *(Add Image)* |
-| 👤 Candidate Profile      | *(Add Image)* |
-| 🏢 Company Profile        | *(Add Image)* |
-| 🔐 Login Page             | *(Add Image)* |
-
----
-
 # 👨‍💻 Developer
-
-<table>
-
-<tr>
-
-<td width="150">
-
-<img src="https://avatars.githubusercontent.com/24NAVEENOS12?v=4" width="130"/>
-
-</td>
-
-<td>
 
 ## **Naveen O. S**
 
-**Full Stack Web Developer**
+📧 **Email** - o.s.naveenofficial24@gmail.com
 
-📧 **Email**
+💼 **LinkedIn** - https://www.linkedin.com/in/naveen-o-s-6b27122b2/
 
-*Add your email here*
-
-💼 **LinkedIn**
-
-https://www.linkedin.com/in/naveen-o-s-6b27122b2/
-
-💻 **GitHub**
-
-https://github.com/24NAVEENOS12
-
-</td>
-
-</tr>
-
-</table>
-
----
-
-# 🙏 Acknowledgements
-
-Special thanks to
-
-* Bootstrap
-* Font Awesome
-* PHP Community
-* MySQL
-* InfinityFree
-* GitHub
-
-for providing excellent tools and platforms that helped in building this project.
+💻 **GitHub** - https://github.com/24NAVEENOS12
 
 ---
 
@@ -687,10 +601,7 @@ Feel free to use it for learning and reference.
 
 # ⭐ Support
 
-If you found this project helpful,
-
-please consider giving it a ⭐ on GitHub.
-
+If you found this project helpful, please consider giving it a ⭐ on GitHub.
 It motivates me to build more amazing projects.
 
 <p align="center">

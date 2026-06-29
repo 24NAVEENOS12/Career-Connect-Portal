@@ -205,7 +205,6 @@ Company can update applicant status:
 
 ✔ Recommended Opportunities
 
----
 
 ## Company Dashboard
 
@@ -374,8 +373,6 @@ Clone Repository
 git clone https://github.com/24NAVEENOS12/Career-Connect-Portal.git
 ```
 
----
-
 ## Step 2
 
 Move project into
@@ -384,16 +381,12 @@ Move project into
 xampp/htdocs/
 ```
 
----
-
 ## Step 3
 
 Start
 
 * Apache
 * MySQL
-
----
 
 ## Step 4
 
@@ -409,8 +402,6 @@ Create Database
 careerconnectportal
 ```
 
----
-
 ## Step 5
 
 Import
@@ -419,8 +410,6 @@ Import
 careerconnectportal.sql
 ```
 
----
-
 ## Step 6
 
 Configure
@@ -428,8 +417,6 @@ Configure
 ```
 config/database.php
 ```
-
----
 
 ## Step 7
 
@@ -448,21 +435,6 @@ Hosted using
 * InfinityFree
 * MySQL Database
 * GitHub
-
----
-
-# 📷 Screenshots
-
-Replace these with your project screenshots.
-
-* Home Page
-* Candidate Dashboard
-* Company Dashboard
-* Opportunities
-* Applicants
-* Candidate Profile
-* Company Profile
-* Login Page
 
 ---
 
@@ -485,11 +457,7 @@ Replace these with your project screenshots.
 
 **Naveen O. S**
 
-Full Stack Developer
-
-GitHub:
-
-https://github.com/24NAVEENOS12
+LinkedIn: https://www.linkedin.com/in/naveen-o-s-6b27122b2/   GitHub: https://github.com/24NAVEENOS12
 
 ---
 
@@ -501,8 +469,5 @@ This project is developed for educational and internship purposes.
 
 # ⭐ Support
 
-If you found this project useful,
-
-please consider giving it a ⭐ on GitHub.
-
+If you found this project useful,please consider giving it a ⭐ on GitHub.
 Your support is greatly appreciated!

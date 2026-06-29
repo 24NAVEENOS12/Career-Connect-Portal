@@ -1,0 +1,1243 @@
+/* ==========================================
+   COMPANY DASHBOARD LAYOUT
+========================================== */
+
+.company-content {
+
+    margin-left: 260px;
+
+    padding: 25px;
+}
+
+/* ==========================================
+   PAGE TITLE
+========================================== */
+
+.dashboard-title {
+
+    font-size: 25px;
+
+    font-weight: 700;
+
+    color: #071d49;
+
+    margin-bottom: 5px;
+}
+
+.title-line {
+
+    width: 100%;
+
+    max-width: 450px;
+
+    height: 4px;
+
+    background: #2563eb;
+
+    border-radius: 20px;
+
+    margin-bottom: 25px;
+}
+
+/* ==========================================
+   WELCOME CARD
+========================================== */
+
+.welcome-card {
+
+    background: #071d49;
+
+    color: white;
+
+    border-radius: 20px;
+
+    padding: 25px;
+
+    margin-bottom: 25px;
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.welcome-card h3 {
+
+    font-size: 24px;
+
+    font-weight: 700;
+}
+
+.welcome-card p {
+
+    margin-bottom: 0;
+
+    opacity: .9;
+
+    font-size: 14px;
+}
+
+.today-box {
+
+    text-align: right;
+}
+
+.today-box small {
+
+    display: block;
+
+    opacity: .8;
+}
+
+.today-box h5 {
+
+    margin: 0;
+
+    font-weight: 700;
+}
+
+/* ==========================================
+   STATISTICS CARDS
+========================================== */
+
+.stats-box {
+
+    background: #071d49;
+
+    color: white;
+
+    border-radius: 20px;
+
+    padding: 15px;
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.12);
+
+    height: 100%;
+}
+
+.stats-box h2 {
+
+    font-size: 32px;
+
+    font-weight: 700;
+
+    margin-bottom: 8px;
+}
+
+.stats-box p {
+
+    margin: 0;
+
+    font-size: 14px;
+
+    opacity: .9;
+}
+
+/* ==========================================
+   SECTION CARDS
+========================================== */
+
+.section-card {
+
+    background: #071d49;
+
+    border-radius: 20px;
+
+    color: white;
+
+    padding: 20px;
+
+    margin-top: 25px;
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.section-card h5 {
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+    margin-bottom: 15px;
+}
+
+/* ==========================================
+   TABLES
+========================================== */
+
+.dashboard-table {
+
+    width: 100%;
+
+    color: white;
+}
+
+.dashboard-table th {
+
+    padding: 12px;
+    font-size: 13px;
+
+    border-bottom:
+        1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dashboard-table td {
+
+    padding: 12px;
+    font-size: 13px;
+
+    border-bottom:
+        1px solid rgba(255, 255, 255, 0.05);
+}
+
+.dashboard-table tr:last-child td {
+
+    border-bottom: none;
+}
+
+/* ==========================================
+   STATUS BADGES
+========================================== */
+
+.status-active {
+
+    background: #22c55e;
+
+    color: white;
+
+    padding: 6px 12px;
+
+    border-radius: 20px;
+
+    font-size: 12px;
+}
+
+.status-badge{
+
+    padding:8px 18px;
+
+    border-radius:25px;
+
+    color:#fff;
+
+    font-weight:600;
+
+    font-size:13px;
+}
+
+.status-active{
+
+    background:#22c55e;
+}
+
+.status-closed{
+
+    background:#ef4444;
+}
+
+.status-badge{
+    padding:7px 18px;
+    border-radius:30px;
+    font-size:13px;
+    font-weight:600;
+    color:#fff;
+}
+
+/* Applied */
+.status-badge.applied{
+    background:#2563eb;
+}
+
+/* Under Review */
+.status-badge.under-review{
+    background:#7c3aed;
+}
+
+/* Shortlisted */
+.status-badge.shortlisted{
+    background:#f59e0b;
+}
+
+/* Selected */
+.status-badge.selected{
+    background:#16a34a;
+}
+
+/* Rejected */
+.status-badge.rejected{
+    background:#ef4444;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:992px) {
+
+    .company-content {
+
+        margin-left: 220px;
+    }
+}
+
+@media(max-width:768px) {
+
+    .company-content {
+
+        margin-left: 0;
+
+        padding: 15px;
+    }
+
+    .dashboard-title {
+
+        font-size: 24px;
+    }
+
+    .welcome-card {
+
+        text-align: center;
+    }
+
+    .today-box {
+
+        text-align: center;
+
+        margin-top: 15px;
+    }
+}
+
+
+
+
+
+.stats-icon {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1px;
+}
+
+.section-header a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #60a5fa;
+}
+
+.opportunity-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.opportunity-item:last-child {
+    border-bottom: none;
+}
+
+.opportunity-item h6 {
+    margin-bottom: 4px;
+}
+
+.applicant-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.applicant-item:last-child {
+    border-bottom: none;
+}
+
+.applicant-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #2563eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: white;
+}
+
+.title-line {
+    width: 700%;
+    max-width: 1210px;
+    height: 4px;
+    background: #2563eb;
+    border-radius: 20px;
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+
+
+
+/* ==========================================
+   STATS CARD ICON STYLE
+========================================== */
+
+.stats-top {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+
+    margin-bottom: 15px;
+}
+
+.stats-icon {
+
+    width: 45px;
+
+    height: 45px;
+
+    border-radius: 14px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 24px;
+
+    color: #fff;
+
+    flex-shrink: 0;
+}
+
+.stats-icon.blue {
+
+    background: #2563eb;
+}
+
+.stats-icon.green {
+
+    background: #16a34a;
+}
+
+.stats-icon.purple {
+
+    background: #7c3aed;
+}
+
+.stats-icon.orange {
+
+    background: #f59e0b;
+}
+
+.stats-info h2 {
+
+    margin: 0;
+
+    font-size: 24px;
+
+    font-weight: 700;
+
+    line-height: 1;
+}
+
+.stats-info h6 {
+
+    margin-top: 6px;
+
+    margin-bottom: 0;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    color: #fff;
+}
+
+.stats-desc {
+
+    margin: 0;
+
+    font-size: 5px;
+
+    color: rgba(255, 255, 255, .85);
+}
+
+
+
+.form-control,
+.form-select,
+textarea {
+
+    border-radius: 12px !important;
+
+    padding: 12px !important;
+}
+
+.form-label {
+
+    font-weight: 600;
+
+    margin-bottom: 8px;
+}
+
+.alert {
+
+    border-radius: 15px;
+}
+
+
+.success-card {
+
+    background: #071d49;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 60px 40px;
+
+    border-radius: 20px;
+
+    max-width: 700px;
+
+    margin: 30px auto;
+
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.success-icon {
+
+    width: 90px;
+
+    height: 90px;
+
+    background: #22c55e;
+
+    border-radius: 50%;
+
+    margin: 0 auto 25px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 38px;
+
+    color: white;
+}
+
+.success-card h2 {
+
+    font-size: 28px;
+
+    font-weight: 700;
+
+    margin-bottom: 15px;
+}
+
+.success-card p {
+
+    color: #d1d5db;
+
+    margin-bottom: 30px;
+}
+
+.btn-post-another {
+
+    display: inline-block;
+
+    background: #2563eb;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 12px 25px;
+
+    border-radius: 12px;
+
+    font-weight: 600;
+}
+
+.btn-post-another:hover {
+
+    background: #1d4ed8;
+
+    color: white;
+}
+
+
+
+
+
+
+/* ==========================================
+   MANAGE OPPORTUNITIES
+========================================== */
+
+.opportunity-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 25px;
+
+    margin-top: 25px;
+}
+
+.opportunity-card {
+
+    background: #071d49;
+
+    color: white;
+
+    border-radius: 20px;
+
+    padding: 20px;
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.12);
+
+    display: flex;
+
+    flex-direction: column;
+
+    height: 100%;
+}
+
+.opportunity-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 8px;
+}
+
+.opportunity-title {
+
+    font-size: 18px;
+
+    font-weight: 700;
+
+    margin: 0;
+}
+
+.opportunity-type {
+
+    color: #d1d5db;
+
+    font-size: 14px;
+
+    margin-bottom: 12px;
+}
+
+.card-divider {
+
+    height: 1px;
+
+    background:
+        rgba(255, 255, 255, 0.15);
+
+    margin: 10px 0 15px;
+}
+
+.opportunity-details p {
+
+    margin-bottom: 10px;
+
+    font-size: 14px;
+}
+
+.status-active {
+
+    background: #22c55e;
+
+    color: white;
+
+    padding: 5px 10px;
+
+    border-radius: 20px;
+
+    font-size: 12px;
+
+    font-weight: 600;
+}
+
+.status-closed {
+
+    background: #ef4444;
+
+    color: white;
+
+    padding: 5px 10px;
+
+    border-radius: 20px;
+
+    font-size: 12px;
+
+    font-weight: 600;
+}
+
+.action-buttons {
+
+    margin-top: auto;
+
+    display: flex;
+
+    gap: 10px;
+
+    flex-wrap: wrap;
+}
+
+.btn-edit {
+
+    background: #2563eb;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 8px 14px;
+
+    border-radius: 10px;
+
+    font-size: 13px;
+}
+
+.btn-toggle {
+
+    background: #f59e0b;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 8px 14px;
+
+    border-radius: 10px;
+
+    font-size: 13px;
+}
+
+.btn-delete {
+
+    background: #ef4444;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 8px 14px;
+
+    border-radius: 10px;
+
+    font-size: 13px;
+}
+
+.btn-edit:hover,
+.btn-toggle:hover,
+.btn-delete:hover {
+
+    color: white;
+}
+
+@media(max-width:1200px) {
+
+    .opportunity-grid {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+}
+
+@media(max-width:768px) {
+
+    .opportunity-grid {
+
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+.detail-row {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    margin-bottom: 12px;
+}
+
+.detail-label {
+
+    width: 140px;
+
+    min-width: 140px;
+
+    font-weight: 600;
+
+    color: white;
+}
+
+.detail-label::after {
+
+    content: " : ";
+}
+
+.detail-value {
+
+    flex: 1;
+
+    line-height: 1.5;
+
+    color: white;
+}
+
+
+
+
+
+
+/* ==========================================
+   COMPANY PROFILE PAGE
+========================================== */
+
+.profile-page-header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.profile-page-title {
+
+    font-size: 25px;
+    font-weight: 700;
+    color: #071d49;
+    margin: 0;
+}
+
+.edit-profile-btn {
+
+    background: #2563eb;
+    color: white;
+    margin-top:-5px;
+    padding: 5px 15px;
+    border-radius: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.edit-profile-btn:hover {
+
+    background: #1d4ed8;
+    color: white;
+}
+
+/* ==========================================
+   COMPANY BANNER
+========================================== */
+
+.company-banner-card {
+
+    margin-bottom: 25px;
+}
+
+.company-banner {
+
+    height: 320px;
+    border-radius: 25px;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, .15);
+
+    position: relative;
+}
+
+.banner-overlay {
+
+    width: 100%;
+    height: 100%;
+
+    background:
+        linear-gradient(rgba(7, 29, 73, .15),
+            rgba(7, 29, 73, .90));
+
+    display: flex;
+    align-items: center;
+
+    padding: 40px;
+}
+
+.company-logo-box {
+
+    margin-right: 35px;
+}
+
+.company-banner-logo {
+
+    width: 150px;
+    height: 150px;
+
+    border-radius: 20px;
+
+    object-fit: cover;
+
+    border: 5px solid white;
+
+    background: white;
+}
+
+.default-logo {
+
+    width: 150px;
+    height: 150px;
+
+    background: white;
+
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 60px;
+
+    color: #2563eb;
+}
+
+.banner-content h2 {
+
+    color: white;
+
+    font-size: 38px;
+
+    font-weight: 700;
+}
+
+.industry-name {
+
+    color: #dbeafe;
+
+    font-size: 18px;
+
+    margin-bottom: 20px;
+}
+
+.banner-details {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.banner-details span {
+
+    color: white;
+
+    font-size: 15px;
+}
+
+/* ==========================================
+   COMMON CARD
+========================================== */
+
+.profile-card {
+
+    background: #071d49;
+
+    color: white;
+
+    border-radius: 22px;
+
+    padding: 30px;
+
+    margin-bottom: 25px;
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, .12);
+}
+
+.section-heading {
+
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+
+    margin-bottom: 25px;
+}
+
+.section-heading h4 {
+
+    margin: 0;
+
+    font-size: 22px;
+
+    font-weight: 600;
+}
+
+.section-icon {
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 14px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+
+    font-size: 18px;
+}
+
+.blue {
+    background: #2563eb;
+}
+
+.green {
+    background: #10b981;
+}
+
+.orange {
+    background: #f97316;
+}
+
+.purple {
+    background: #8b5cf6;
+}
+
+/* ==========================================
+   ABOUT
+========================================== */
+
+.about-company-text {
+
+    line-height: 1.9;
+
+    color: #dbeafe;
+
+    font-size: 15px;
+}
+
+/* ==========================================
+   HIGHLIGHTS
+========================================== */
+
+.highlights-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 20px;
+}
+
+.highlight-box {
+
+    border-radius: 18px;
+
+    padding: 25px;
+
+    text-align: center;
+
+    color: white;
+}
+
+.highlight-icon {
+
+    font-size: 30px;
+
+    margin-bottom: 15px;
+}
+
+.highlight-box h2 {
+
+    font-size: 30px;
+
+    font-weight: 700;
+
+    margin-bottom: 8px;
+}
+
+.highlight-box p {
+
+    margin: 0;
+}
+
+.founded {
+    background: #2563eb;
+}
+
+.offices {
+    background: #10b981;
+}
+
+.employees {
+    background: #8b5cf6;
+}
+
+.projects {
+    background: #f97316;
+}
+
+/* ==========================================
+   BENEFITS
+========================================== */
+
+.benefits-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+.benefit-card {
+
+    background: #0d2d6d;
+
+    border-radius: 18px;
+
+    padding: 25px;
+
+    text-align: center;
+}
+
+.benefit-icon {
+
+    font-size: 30px;
+
+    color: #60a5fa;
+
+    margin-bottom: 15px;
+}
+
+.benefit-card h6 {
+
+    margin: 0;
+
+    color: white;
+
+    font-size: 16px;
+}
+
+/* ==========================================
+   CULTURE
+========================================== */
+
+.culture-content {
+
+    color: #dbeafe;
+
+    line-height: 1.9;
+}
+
+/* ==========================================
+   TECHNOLOGIES
+========================================== */
+
+.tech-stack{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:20px;
+}
+
+.tech-badge{
+    background:#2563eb;
+    color:white;
+    padding:8px 16px;
+    border-radius:30px;
+    font-size:14px;
+    font-weight:500;
+}
+
+.profile-card p{
+    margin-top:20px;
+    line-height:1.9;
+}
+
+
+/* ==========================================
+   EMPTY CONTENT
+========================================== */
+
+.empty-content {
+
+    color: #dbeafe;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:992px) {
+
+    .profile-page-header {
+
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+    }
+
+    .banner-overlay {
+
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .company-logo-box {
+
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .banner-details {
+
+        justify-content: center;
+    }
+
+    .highlights-grid {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .benefits-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+
+}

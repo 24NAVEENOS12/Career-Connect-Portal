@@ -29,10 +29,10 @@ A **Full Stack Recruitment Portal** that bridges the gap between **Job Seekers**
 ---
 
 # 🌐 Live Demo & Demo Video
-
-| 🌍 Live Website                                     | 🎥 Project Demo                           |
-| --------------------------------------------------- | ----------------------------------------- |
-| **https://careerconnectportal.infinityfreeapp.com** | **Add your Google Drive video link here** |
+ 
+| 🌍 Live Website                                                                            | 🎥 Project Demo                                                                |
+| ---------------------------------------------------                                         | -----------------------------------------                                      |
+| **https://careerconnectportal.infinityfreeapp.com**                                         | **Add your Google Drive video link here**                                        |
 
 ---
 

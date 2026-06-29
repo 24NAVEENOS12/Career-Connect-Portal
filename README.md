@@ -21,36 +21,6 @@ A **Full Stack Recruitment Portal** that bridges the gap between **Job Seekers**
 
 ---
 
-# 🌐 Live Demo & Demo Video
- 
-| 🌍 Live Website                                                                            | 🎥 Project Demo                                                                |
-| ---------------------------------------------------                                         | -----------------------------------------                                      |
-| **https://careerconnectportal.infinityfreeapp.com**                                         | **Add your Google Drive video link here**                                        |
-
----
-
-# 📑 Table of Contents
-
-* 📖 Project Overview
-* 🎯 Why Career Connect Portal?
-* ✨ Key Features
-* 👨‍🎓 Candidate Module
-* 🏢 Company Module
-* 📊 Dashboard Features
-* 🎨 User Interface
-* 🛠 Technology Stack
-* 🏗 Project Architecture
-* 🔄 Recruitment Workflow
-* 📂 Project Structure
-* 🗄 Database
-* ⚙ Installation Guide
-* ☁ Deployment
-* 🚀 Future Enhancements
-* 👨‍💻 Developer
-* 📄 License
-
----
-
 # 📖 Project Overview
 
 **Career Connect Portal** is a complete recruitment platform developed using **PHP**, **MySQL**, **Bootstrap**, **HTML**, **CSS**, and **JavaScript**.
@@ -67,8 +37,6 @@ The project focuses on:
 * Easy Job Management
 * Professional Dashboard Analytics
 
----
-
 # 🎯 Why Career Connect Portal?
 
 Many traditional recruitment systems suffer from:
@@ -81,20 +49,20 @@ Many traditional recruitment systems suffer from:
 ### Career Connect Portal solves these problems by providing:
 
 ✅ Centralized Recruitment Platform
-
 ✅ Secure Candidate & Company Authentication
-
 ✅ Easy Job Posting & Management
-
 ✅ Professional Candidate Profiles
-
 ✅ Resume Upload & Download
-
 ✅ Recruitment Status Tracking
-
 ✅ Dashboard Analytics
-
 ✅ Responsive Web Application
+
+---
+# 🌐 Live Demo & Demo Video
+ 
+| 🌍 Live Website                                                                            | 🎥 Project Demo                                                                |
+| ---------------------------------------------------                                         | -----------------------------------------                                      |
+| **https://careerconnectportal.infinityfreeapp.com**                                         | **Add your Google Drive video link here**                                        |
 
 ---
 
@@ -112,6 +80,15 @@ Many traditional recruitment systems suffer from:
 | Track Applications       | View Applicants       |
 | View Status              | Download Resume       |
 | Dashboard Analytics      | Recruitment Analytics |
+
+# 🔒 Security Features
+
+* 🔐 Password Encryption
+* 👤 Session Management
+* 🚪 Secure Logout
+* 📂 File Upload Validation
+* 🛡 SQL Injection Prevention
+* ✅ Login Authentication
 
 ---
 
@@ -509,19 +486,6 @@ The project uses **MySQL** as the backend database.
 
 ---
 
-# 📈 Project Statistics
-
-| 📊 Item            |        Count |
-| ------------------ | -----------: |
-| 👥 User Roles      |            2 |
-| 📄 Modules         |            2 |
-| 📑 Major Pages     |          15+ |
-| 🗄 Database Tables |           8+ |
-| 💻 Technologies    |            8 |
-| 📂 Upload Types    |            4 |
-| 📊 Dashboards      |            2 |
-| 🌐 Deployment      | InfinityFree |
-
 # ⚙ Installation Guide
 
 Follow these steps to run the project on your local machine.
@@ -534,8 +498,6 @@ Follow these steps to run the project on your local machine.
 git clone https://github.com/24NAVEENOS12/Career-Connect-Portal.git
 ```
 
----
-
 ## 2️⃣ Move Project to XAMPP
 
 Copy the project folder into:
@@ -546,8 +508,6 @@ xampp/
          └── Career-Connect-Portal/
 ```
 
----
-
 ## 3️⃣ Start XAMPP
 
 Open **XAMPP Control Panel**
@@ -556,8 +516,6 @@ Start the following services:
 
 * ✅ Apache
 * ✅ MySQL
-
----
 
 ## 4️⃣ Create Database
 
@@ -572,8 +530,6 @@ Create a database named
 ```text
 careerconnectportal
 ```
-
----
 
 ## 5️⃣ Import SQL File
 
@@ -595,8 +551,6 @@ Click
 Go
 ```
 
----
-
 ## 6️⃣ Configure Database Connection
 
 Open
@@ -613,8 +567,6 @@ $user = "root";
 $password = "";
 $database = "careerconnectportal";
 ```
-
----
 
 ## 7️⃣ Run the Project
 
@@ -637,17 +589,6 @@ The project is deployed using
 | 🌐 InfinityFree | Web Hosting     |
 | 🗄 MySQL        | Database        |
 | 📂 GitHub       | Version Control |
-
----
-
-# 🔒 Security Features
-
-* 🔐 Password Encryption
-* 👤 Session Management
-* 🚪 Secure Logout
-* 📂 File Upload Validation
-* 🛡 SQL Injection Prevention
-* ✅ Login Authentication
 
 ---
 

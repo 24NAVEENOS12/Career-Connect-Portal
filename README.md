@@ -48,14 +48,10 @@ Many traditional recruitment systems suffer from:
 
 ### Career Connect Portal solves these problems by providing:
 
-✅ Centralized Recruitment Platform
-✅ Secure Candidate & Company Authentication
-✅ Easy Job Posting & Management
-✅ Professional Candidate Profiles
-✅ Resume Upload & Download
-✅ Recruitment Status Tracking
-✅ Dashboard Analytics
-✅ Responsive Web Application
+✅ Centralized Recruitment Platform             ✅ Secure Candidate & Company Authentication
+✅ Easy Job Posting & Management                ✅ Professional Candidate Profiles
+✅ Resume Upload & Download                     ✅ Recruitment Status Tracking
+✅ Dashboard Analytics                          ✅ Responsive Web Application
 
 ---
 

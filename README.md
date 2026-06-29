@@ -1,158 +1,296 @@
 # 🚀 Career Connect Portal
 
-A modern, full-stack **Career Connect Portal** that connects **Candidates** and **Companies** through a secure recruitment platform.
+<p align="center">
 
-The portal allows companies to post job opportunities, manage applicants, and update recruitment status, while candidates can create profiles, apply for jobs, upload resumes, and track their application progress.
+<img src="https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Bootstrap-5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+
+</p>
+
+<p align="center">
+
+A modern **Full Stack Recruitment Portal** that connects **Candidates** and **Companies** through an easy-to-use recruitment platform.
+
+Companies can publish opportunities, manage applicants and update recruitment status while candidates can build professional profiles, upload resumes, apply for jobs and track their applications.
+
+</p>
 
 ---
 
 # 🌐 Live Demo
 
-🔗 https://careerconnectportal.infinityfreeapp.com
+**Website**
+
+https://careerconnectportal.infinityfreeapp.com
 
 ---
 
-# 📌 Features
+# 📑 Table of Contents
 
-## 👨‍💼 Candidate Module
-
-- Candidate Registration
-- Secure Login & Logout
-- Profile Management
-- Profile Completion Indicator
-- Upload Profile Picture
-- Upload Resume (PDF)
-- Browse Job Opportunities
-- Apply for Jobs
-- Track Applied Jobs
-- View Application Status
-    - Applied
-    - Under Review
-    - Shortlisted
-    - Selected
-    - Rejected
-- Personalized Dashboard
-- Recommended Opportunities
+* Project Overview
+* Key Features
+* Candidate Module
+* Company Module
+* Dashboard Features
+* Technology Stack
+* Project Architecture
+* Folder Structure
+* Recruitment Workflow
+* Database
+* Installation Guide
+* Deployment
+* Future Enhancements
+* Screenshots
+* Developer
+* License
 
 ---
 
-## 🏢 Company Module
+# 📖 Project Overview
 
-- Company Registration
-- Secure Login & Logout
-- Company Profile Management
-- Upload Company Logo
-- Upload Company Cover Image
-- Post Job Opportunities
-- Manage Job Listings
-- Close/Open Opportunities
-- View Applicants
-- View Candidate Profiles
-- Download Candidate Resumes
-- Update Candidate Status
-    - Under Review
-    - Shortlisted
-    - Selected
-    - Rejected
-- Company Analytics Dashboard
+Career Connect Portal is a web-based recruitment platform developed using **PHP, MySQL, Bootstrap, HTML, CSS and JavaScript**.
+
+The portal provides two independent modules:
+
+### 👨‍🎓 Candidate
+
+* Register account
+* Build profile
+* Upload resume
+* Apply for opportunities
+* Track applications
+
+### 🏢 Company
+
+* Register company
+* Post opportunities
+* View applicants
+* Download resumes
+* Select candidates
+* Manage recruitment
 
 ---
 
-# 📊 Dashboard Analytics
+# ✨ Key Features
+
+## ✅ Authentication
+
+* Candidate Registration
+* Company Registration
+* Secure Login
+* Logout
+* Session Management
+* Password Encryption
+
+---
+
+## 👨‍🎓 Candidate Module
+
+### 1. Registration
+
+* Create Candidate Account
+* Secure Password Storage
+
+### 2. Login
+
+* Secure Authentication
+* Session Handling
+
+### 3. Profile
+
+* Edit Profile
+* Upload Profile Photo
+* Upload Resume
+* Personal Information
+* Education
+* Skills
+* Portfolio Links
+
+### 4. Dashboard
+
+* Applied Opportunities
+* Selected Count
+* Under Review Count
+* Shortlisted Count
+* Rejected Count
+* Circular Profile Completion
+* Recent Applications
+
+### 5. Opportunities
+
+* Browse Opportunities
+* Search Opportunities
+* Filter by Type
+* Sort by Latest
+* Sort by Oldest
+
+### 6. Applications
+
+Track Status
+
+* Applied
+* Under Review
+* Shortlisted
+* Selected
+* Rejected
+
+---
+
+# 🏢 Company Module
+
+### 1. Registration
+
+* Company Registration
+* Contact Person
+
+### 2. Profile
+
+* Company Logo
+* Cover Image
+* About Company
+* Website
+* Industry
+* Location
+
+### 3. Dashboard
+
+* Total Opportunities
+* Total Vacancies
+* Total Applicants
+* Total Selected
+* Recent Opportunities
+* Recent Applicants
+
+### 4. Opportunities
+
+* Create Opportunity
+* Edit Opportunity
+* Close Opportunity
+* Delete Opportunity
+
+### 5. Applicant Management
+
+Company can update applicant status:
+
+* Under Review
+* Shortlisted
+* Selected
+* Rejected
+
+### 6. Resume
+
+* View Resume
+* Download Resume
+
+---
+
+# 📊 Dashboard Features
 
 ## Candidate Dashboard
 
-- Applied Opportunities
-- Selected Count
-- Shortlisted Count
-- Under Review Count
-- Rejected Count
-- Circular Profile Completion Indicator
-- Recent Applications
+✔ Circular Profile Completion
+
+✔ Statistics Cards
+
+✔ Recent Applications
+
+✔ Recommended Opportunities
 
 ---
 
 ## Company Dashboard
 
-- Total Opportunities Posted
-- Total Vacancies
-- Total Applicants
-- Selected Candidates
-- Recent Opportunities
-- Recent Applicants
+✔ Statistics Cards
+
+✔ Recent Opportunities
+
+✔ Recent Applicants
+
+✔ Recruitment Analytics
 
 ---
 
-# 💻 Technologies Used
+# 🎨 User Interface
 
-## Frontend
-
-- HTML5
-- CSS3
-- Bootstrap 5
-- JavaScript
-- Font Awesome
-
-## Backend
-
-- PHP
-
-## Database
-
-- MySQL
-
-## Development Environment
-
-- XAMPP
-
-## Deployment
-
-- InfinityFree Hosting
-- MySQL Database
-- GitHub Repository
+* Responsive Design
+* Modern Dashboard
+* Bootstrap Layout
+* Glassmorphism Cards
+* Animated Buttons
+* Status Badges
+* Gradient Icons
+* Circular Progress Indicator
+* Responsive Sidebar
 
 ---
 
-# 📂 Project Structure
+# 🛠 Technology Stack
+
+| Category        | Technology     |
+| --------------- | -------------- |
+| Frontend        | HTML5          |
+| Styling         | CSS3           |
+| Framework       | Bootstrap 5    |
+| Icons           | Font Awesome   |
+| Scripting       | JavaScript     |
+| Backend         | PHP            |
+| Database        | MySQL          |
+| Server          | Apache (XAMPP) |
+| Hosting         | InfinityFree   |
+| Version Control | Git & GitHub   |
+
+---
+
+# 🏗 Project Architecture
+
+```
+Candidate
+        │
+        ▼
+Candidate Portal
+        │
+        ▼
+PHP Backend
+        │
+        ▼
+MySQL Database
+        ▲
+        │
+Company Portal
+        │
+        ▼
+Company
+```
+
+---
+
+# 📂 Folder Structure
 
 ```
 Career-Connect-Portal
+
+├── assets
 │
-├── assets/
-│   ├── css/
-│   ├── js/
-│   ├── images/
+├── auth
 │
-├── auth/
-│   ├── candidate-login.php
-│   ├── company-login.php
-│   ├── candidate-register.php
-│   ├── company-register.php
+├── candidate
 │
-├── candidate/
-│   ├── candidate-dashboard.php
-│   ├── opportunities.php
-│   ├── applied-opportunities.php
-│   ├── candidate-profile.php
-│   ├── candidate-profile-edit.php
+├── company
 │
-├── company/
-│   ├── dashboard.php
-│   ├── post-opportunity.php
-│   ├── manage-opportunities.php
-│   ├── applicants.php
-│   ├── company-profile.php
+├── config
 │
-├── config/
-│   ├── database.php
+├── includes
 │
-├── includes/
-│
-├── uploads/
-│   ├── company_logo/
-│   ├── company_cover/
-│   ├── profile_picture/
-│   ├── resumes/
+├── uploads
 │
 ├── index.php
 │
@@ -161,60 +299,51 @@ Career-Connect-Portal
 
 ---
 
-# 🔐 Authentication
-
-The system includes secure authentication for:
-
-- Candidate Login
-- Company Login
-- Session Management
-- Password Encryption
-- Logout Handling
-
----
-
-# 📄 Resume Management
-
-Candidates can upload resumes in PDF format.
-
-Companies can:
-
-- View Resume
-- Download Resume
-
----
-
-# 📸 Image Upload
-
-Supported uploads include:
-
-- Candidate Profile Photo
-- Company Logo
-- Company Cover Image
-
----
-
-# 📈 Recruitment Workflow
+# 🔄 Recruitment Workflow
 
 ```
-Candidate Registers
+Candidate Registration
+
         │
+
         ▼
+
+Complete Profile
+
+        │
+
+        ▼
+
 Browse Opportunities
+
         │
+
         ▼
-Apply for Job
+
+Apply
+
         │
+
         ▼
-Company Reviews Application
+
+Company Reviews
+
         │
+
         ▼
+
 Under Review
+
         │
+
         ▼
+
 Shortlisted
+
         │
+
         ▼
+
 Selected / Rejected
 ```
 
@@ -222,81 +351,24 @@ Selected / Rejected
 
 # 🗄 Database
 
-The project uses MySQL and includes tables for:
+The project uses MySQL with tables including:
 
-- Candidates
-- Companies
-- Opportunities
-- Applications
-- Uploaded Resumes
-- Profile Images
-
----
-
-# 🎨 UI Highlights
-
-- Responsive Design
-- Modern Dashboard
-- Professional Color Theme
-- Statistics Cards
-- Circular Progress Indicator
-- Responsive Sidebar
-- Status Badges
-- Animated Buttons
-- Interactive Forms
+* users
+* candidate_profiles
+* candidate_education
+* candidate_skills
+* companies
+* opportunities
+* applications
+* rejected_opportunities
 
 ---
 
-# 🔥 Key Functionalities
+# ⚙ Installation Guide
 
-✔ Candidate Registration
+## Step 1
 
-✔ Company Registration
-
-✔ Secure Authentication
-
-✔ Job Posting
-
-✔ Opportunity Management
-
-✔ Job Application
-
-✔ Resume Upload
-
-✔ Resume Download
-
-✔ Applicant Tracking
-
-✔ Recruitment Status Updates
-
-✔ Dashboard Analytics
-
-✔ Company Profile
-
-✔ Candidate Profile
-
-✔ Responsive Design
-
----
-
-# 🚀 Future Enhancements
-
-- Admin Panel
-- Email Notifications
-- Interview Scheduling
-- Chat System
-- AI Resume Screening
-- AI Job Recommendation
-- OTP Verification
-- Google Authentication
-- Candidate Skill Assessment
-- Company Verification
-
----
-
-# ⚙ Installation
-
-## Clone Repository
+Clone Repository
 
 ```bash
 git clone https://github.com/24NAVEENOS12/Career-Connect-Portal.git
@@ -304,9 +376,9 @@ git clone https://github.com/24NAVEENOS12/Career-Connect-Portal.git
 
 ---
 
-## Move Project
+## Step 2
 
-Move the project into
+Move project into
 
 ```
 xampp/htdocs/
@@ -314,28 +386,32 @@ xampp/htdocs/
 
 ---
 
-## Start XAMPP
+## Step 3
 
 Start
 
-- Apache
-- MySQL
+* Apache
+* MySQL
 
 ---
 
-## Import Database
+## Step 4
 
 Open
 
 ```
-phpMyAdmin
+http://localhost/phpmyadmin
 ```
 
-Create a database
+Create Database
 
 ```
 careerconnectportal
 ```
+
+---
+
+## Step 5
 
 Import
 
@@ -345,30 +421,63 @@ careerconnectportal.sql
 
 ---
 
-## Configure Database
+## Step 6
 
-Update
+Configure
 
 ```
 config/database.php
 ```
 
-Example
-
-```php
-$host="localhost";
-$user="root";
-$password="";
-$database="careerconnectportal";
-```
-
 ---
 
-## Run Project
+## Step 7
+
+Run
 
 ```
 http://localhost/Career-Connect-Portal/
 ```
+
+---
+
+# ☁ Deployment
+
+Hosted using
+
+* InfinityFree
+* MySQL Database
+* GitHub
+
+---
+
+# 📷 Screenshots
+
+Replace these with your project screenshots.
+
+* Home Page
+* Candidate Dashboard
+* Company Dashboard
+* Opportunities
+* Applicants
+* Candidate Profile
+* Company Profile
+* Login Page
+
+---
+
+# 🚀 Future Enhancements
+
+* Admin Panel
+* Email Notifications
+* OTP Authentication
+* Google Login
+* AI Resume Screening
+* AI Job Recommendation
+* Interview Scheduling
+* Chat Module
+* Company Verification
+* Candidate Skill Tests
 
 ---
 
@@ -378,22 +487,22 @@ http://localhost/Career-Connect-Portal/
 
 Full Stack Developer
 
----
-
-# 📧 Contact
-
-GitHub
+GitHub:
 
 https://github.com/24NAVEENOS12
 
 ---
 
-# 📜 License
+# 📄 License
 
 This project is developed for educational and internship purposes.
 
 ---
 
-# ⭐ If you like this project
+# ⭐ Support
 
-Please consider giving it a ⭐ on GitHub.
+If you found this project useful,
+
+please consider giving it a ⭐ on GitHub.
+
+Your support is greatly appreciated!

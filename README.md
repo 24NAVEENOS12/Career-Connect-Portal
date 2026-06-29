@@ -188,7 +188,7 @@ Many traditional recruitment systems suffer from:
 
 # ✨ Key Features
 
-# 🔒 Security Features
+## 🔒 Security Features
 
 * 🔐 Password Encryption
 * 👤 Session Management
@@ -197,9 +197,8 @@ Many traditional recruitment systems suffer from:
 * 🛡 SQL Injection Prevention
 * ✅ Login Authentication
 
----
 
-# 📊 Dashboard Features
+## 📊 Dashboard Features
 
 <table>
 
@@ -465,7 +464,6 @@ The project uses **MySQL** as the backend database.
 Follow these steps to run the project on your local machine.
 
 ## 1️⃣ Clone the Repository
-
 ```bash
 git clone https://github.com/24NAVEENOS12/Career-Connect-Portal.git
 ```
@@ -473,7 +471,6 @@ git clone https://github.com/24NAVEENOS12/Career-Connect-Portal.git
 ## 2️⃣ Move Project to XAMPP
 
 Copy the project folder into:
-
 ```text
 xampp/
    └── htdocs/
@@ -492,13 +489,11 @@ Start the following services:
 ## 4️⃣ Create Database
 
 Open
-
 ```
 http://localhost/phpmyadmin
 ```
 
 Create a database named
-
 ```text
 careerconnectportal
 ```
@@ -506,19 +501,16 @@ careerconnectportal
 ## 5️⃣ Import SQL File
 
 Click
-
 ```
 Import
 ```
 
 Choose
-
 ```
 careerconnectportal.sql
 ```
 
 Click
-
 ```
 Go
 ```
@@ -526,13 +518,11 @@ Go
 ## 6️⃣ Configure Database Connection
 
 Open
-
 ```
 config/database.php
 ```
 
 Update
-
 ```php
 $host = "localhost";
 $user = "root";
@@ -543,7 +533,6 @@ $database = "careerconnectportal";
 ## 7️⃣ Run the Project
 
 Open your browser
-
 ```
 http://localhost/Career-Connect-Portal/
 ```
@@ -556,11 +545,9 @@ http://localhost/Career-Connect-Portal/
 
 The project is deployed using
 
-| Platform        | Purpose         |
-| --------------- | --------------- |
-| 🌐 InfinityFree | Web Hosting     |
-| 🗄 MySQL        | Database        |
-| 📂 GitHub       | Version Control |
+ 🌐 InfinityFree - Free Web Hosting     
+ 🗄 MySQL         - Database        
+ 📂 GitHub       - Version Control 
 
 ---
 
@@ -603,12 +590,3 @@ Feel free to use it for learning and reference.
 
 If you found this project helpful, please consider giving it a ⭐ on GitHub.
 It motivates me to build more amazing projects.
-
-<p align="center">
-
-## ⭐ Thank You for Visiting ⭐
-
-### Happy Coding! 🚀
-
-</p>
-

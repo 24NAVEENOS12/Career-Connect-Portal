@@ -93,25 +93,17 @@ The portal allows companies to post job opportunities, manage applicants, and up
 - JavaScript
 - Font Awesome
 
----
-
 ## Backend
 
 - PHP
-
----
 
 ## Database
 
 - MySQL
 
----
-
 ## Development Environment
 
 - XAMPP
-
----
 
 ## Deployment
 

@@ -59,7 +59,7 @@ Many traditional recruitment systems suffer from:
  
 | 🌍 Live Website                                                                            | 🎥 Project Demo                                                                |
 | ---------------------------------------------------                                         | -----------------------------------------                                      |
-| **https://careerconnectportal.infinityfreeapp.com**                                         | **Add your Google Drive video link here**                                        |
+| **[Website Deployed Link](https://careerconnectportal.infinityfreeapp.com)**                 | **[Google Drive video link](https://drive.google.com/file/d/16XbYVzQhYY5eRFkBmYWKiGXZ-FzofaFT/view?usp=sharing)**              |
 
 ---
 

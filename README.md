@@ -263,27 +263,6 @@ Many traditional recruitment systems suffer from:
 
 ---
 
-# 🎨 User Interface
-
-The application follows a clean and modern UI inspired by professional recruitment platforms.
-
-### ✨ UI Highlights
-
-* 🎯 Modern Dashboard
-* 📱 Fully Responsive Layout
-* 🎨 Gradient Theme
-* 🪟 Glassmorphism Cards
-* 🧭 Responsive Sidebar
-* 📊 Dashboard Analytics
-* 🏷 Status Badges
-* 🔘 Interactive Buttons
-* 📂 Upload Components
-* 📈 Circular Progress Indicator
-* 🖼 Company Cover Images
-* 👤 Candidate Profile Cards
-
----
-
 # 🛠 Technology Stack
 
 | 💻 Category     | 🚀 Technology |
@@ -568,7 +547,7 @@ The project is deployed using
 
 # 👨‍💻 Developer
 
-## **Naveen O. S**
+## **NAVEEN O S**
 
 📧 **Email** - o.s.naveenofficial24@gmail.com
 
